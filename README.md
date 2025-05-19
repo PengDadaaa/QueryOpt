@@ -28,5 +28,5 @@ Building on the query-based optimization framework, we incorporate an auxiliary 
 
 
 #### About
-This repository contains code modified from [Facebook Research's DETR](https://github.com/facebookresearch/detr).
+This repository contains code modified from [DETR](https://github.com/facebookresearch/detr).
 Original License: [LICENSE](https://github.com/facebookresearch/detr/blob/main/LICENSE)
