@@ -1,10 +1,16 @@
 # Learning Attribute-Aware Hash Codes for Fine-Grained Image Retrieval via Query Optimization
 
 ## Method
-![framework](./figures/framework.png)
+
+<div style="text-align: center; background-color: white; display: inline-block; padding: 10px;">
+  <img src="./figures/framework.png" width="80%" style="background-color: white;">
+</div>
 Overall framework of our method for generating attribute-aware hash codes for fine-grained image retrieval. The top part of the figure shows the workflow of the method: given a group of learnable parameters, an image is decoupled into a set of visual attributes, and each attribute is compressed into a single bit, serving as the hash code for retrieval. The bottom left part details the implementation of the Subtle Feature Extractor, where MHSA stands for multi-head self-attention and FFN stands for feed-forward network. The bottom right part illustrates our motivation for using distinctive attributes as hash codes for retrieval.
 
-![auxiliary_branch](./figures/auxiliary_branch.png)
+<div style="text-align: center; background-color: white; display: inline-block; padding: 10px;">
+  <img src="./figures/auxiliary_branch.png" width="30%" style="background-color: white;">
+</div>
+
 Building on the query-based optimization framework, we incorporate an auxiliary branch to help alleviate the challenges of complex landscape optimization often encountered with low-bit hash codes.
 
 
