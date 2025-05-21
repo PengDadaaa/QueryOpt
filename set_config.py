@@ -49,10 +49,10 @@ def load_args(args ,flag):
         args.hidden_dim = 384
         args.position_embedding = 'learned'
         args.dropout = 0
-        args.code_length = '48,32,24,12'
+        args.code_length = '48'
 
         args.val_freq = 5
-        args.num_roll = 12
+
         if args.dataset == 'food101':
             args.lr_step ='90'
         else:
